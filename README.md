@@ -88,4 +88,4 @@ For each of the articles, given in the input.xlsx file, extract the article text
 
 For each of the extracted texts from the article, perform textual analysis and compute variables, given in the output structure excel file and save the output in the exact order as given in the output structure file, “Output Data Structure.xlsx”
 
-### Now, let's jump into the Jupyter Notebook and begin the Coding work.
+### Now, let's jump into the Jupyter Notebook and take a look at the Python Code Implementation.
