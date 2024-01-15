@@ -22,7 +22,7 @@ It's important to note that web scraping should be done ethically and legally. B
 
 ## Objective
 
-The objective of this projrct is to extract textual data articles from the given URL and perform text analysis to compute variables that are explained below. 
+The objective of this project is to extract textual data articles from the given URL and perform text analysis to compute variables that are explained below. 
 
 ### 1.	Sentimental Analysis
 Sentimental analysis is the process of determining whether a piece of writing is positive, negative, or neutral. The below Algorithm is designed for use in Financial Texts. It consists of steps:
