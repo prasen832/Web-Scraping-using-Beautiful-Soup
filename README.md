@@ -1,5 +1,7 @@
 # Web Scraping using Beautiful Soup and Python 
 
+![web](Web_Scrapping.jpg)
+
 ## What is web scrapping ?
 
 Web scraping is a technique used to extract data from websites. It involves fetching the web page's HTML code and then parsing it to extract the desired information. This process is often automated using scripts or programs to navigate through the website's structure and retrieve specific data.
