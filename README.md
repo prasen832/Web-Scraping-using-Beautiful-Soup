@@ -41,11 +41,13 @@ We convert the text into a list of tokens using the nltk tokenize module and use
 **Polarity Score:** This is the score that determines if a given text is positive or negative in nature. It is calculated by using the formula: 
 
 Polarity Score = (Positive Score – Negative Score)/ ((Positive Score + Negative Score) + 0.000001)
+
 Range is from -1 to +1
 
 **Subjectivity Score:** This is the score that determines if a given text is objective or subjective. It is calculated by using the formula: 
 
 Subjectivity Score = (Positive Score + Negative Score)/ ((Total Words after cleaning) + 0.000001)
+
 Range is from 0 to +1
 
 ### 2. Analysis of Readability
@@ -75,3 +77,12 @@ To calculate Personal Pronouns mentioned in the text, we use regex to find the c
 ### 8. Average Word Length
 Average Word Length is calculated by the formula:
 Sum of the total number of characters in each word/Total number of words
+
+## Data Extraction and Analysis on Input file
+
+For each of the articles, given in the input.xlsx file, extract the article text and save the extracted article in a text file with URL_ID as its file name. While extracting text, please make sure that program extracts only the article title and the article text. It should not extract the website header, footer, or anything other than the article text. 
+
+## Saving to Output File
+
+For each of the extracted texts from the article, perform textual analysis and compute variables, given in the output structure excel file and save the output in the exact order as given in the output structure file, “Output Data Structure.xlsx”
+
